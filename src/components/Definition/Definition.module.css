@@ -1,0 +1,38 @@
+.definition-container {
+    height: 42vh;
+    border: 10px solid rgb(105, 105, 105);
+    border-radius: 10px;
+    padding: 0.5rem;
+    margin-top: 0.8rem;
+    overflow-x: hidden;
+    overflow-y: scroll;
+}
+
+.audio {
+    width: 100%;
+    margin-block: 0.3rem;
+    border-radius: 10px;
+}
+
+.audio::-webkit-media-controls-panel {
+    background-color: #ffe4e1;
+}
+
+.definition-item__list {
+    display: flex;
+    gap: 0.5rem;
+    flex-direction: column;
+}
+
+.instruction {
+    font-size: 2rem;
+    font-weight: 300;
+    text-align: center;
+    font-family: "Montserrat", sans-serif;
+}
+
+@media (min-width: 40rem) {
+    .definition-container {
+        height: 50vh;
+    }
+}
