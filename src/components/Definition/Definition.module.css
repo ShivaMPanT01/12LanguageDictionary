@@ -28,7 +28,11 @@
     font-size: 2rem;
     font-weight: 300;
     text-align: center;
-    font-family: "Montserrat", sans-serif;
+}
+
+.no-result {
+    text-align: center;
+    font-size: 2rem;
 }
 
 @media (min-width: 40rem) {

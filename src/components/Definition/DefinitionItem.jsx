@@ -1,8 +1,11 @@
 import React from "react";
+import { useDictionary } from "../../store/dictionary-context";
 
 import styles from "./DefinitionItem.module.css";
 
-function DefinitionItem({ data, darkMode }) {
+function DefinitionItem({ data }) {
+    const { darkMode } = useDictionary();
+
     return (
         <li
             className={styles["definition-item"]}

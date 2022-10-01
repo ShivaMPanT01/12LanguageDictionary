@@ -1,0 +1,6 @@
+.spinner {
+    padding: 2rem 0;
+    text-align: center;
+    width: 100%;
+    transform: scale(1.5);
+}
